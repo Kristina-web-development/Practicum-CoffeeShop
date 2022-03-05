@@ -1,10 +1,10 @@
-@import url("/vendor/normalize.css");
-@import url("/blocks/header.css");
-@import url("/blocks/menu.css");
-@import url("/blocks/recipes.css");
-@import url("/blocks/reservation.css");
-@import url("/blocks/about.css");
-@import url("/blocks/footer.css");
+@import url("../vendor/normalize.css");
+@import url("../blocks/header.css");
+@import url("../blocks/menu.css");
+@import url("../blocks/recipes.css");
+@import url("../blocks/reservation.css");
+@import url("../blocks/about.css");
+@import url("../blocks/footer.css");
 
 @keyframes pulsate {
   0% {
@@ -30,7 +30,7 @@
 
 .header {
   background-color: #ffffff;
-  background-image: url("/images/background_header.svg");
+  background-image: url("../images/background_header.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -142,7 +142,7 @@
 
 .menu {
   background-color: #0a2750;
-  background-image: url("/images/background_menu.svg");
+  background-image: url("../images/background_menu.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -229,7 +229,7 @@
 
 .recipes {
   background-color: #ffffff;
-  background-image: url("/images/background_recipes.svg");
+  background-image: url("../images/background_recipes.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -288,7 +288,7 @@
 
 .reservation {
   background-color: #d9e7ff;
-  background-image: url("/images/background_reservation.svg");
+  background-image: url("../images/background_reservation.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -365,7 +365,7 @@
 
 .form__checkbox {
   color: #2f80ed;
-  background-image: url("/images/check.svg");
+  background-image: url("../images/check.svg");
   width: 18px;
   height: 18px;
   margin-right: 12px;
