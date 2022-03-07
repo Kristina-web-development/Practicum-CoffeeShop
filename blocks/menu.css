@@ -39,7 +39,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-bottom: 100px;
+  padding-bottom: 100px;
 }
 
 .card {
@@ -49,7 +49,7 @@
 
 .card__title {
   margin: 0 0 32px 0;
-  font-family: "Inter", "Arial" sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;

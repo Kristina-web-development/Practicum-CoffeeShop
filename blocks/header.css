@@ -5,6 +5,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
 }
 
 .nav {
@@ -35,6 +38,7 @@
   font-size: 16px;
   line-height: 20px;
   color: #000000;
+  text-decoration: none;
 }
 
 .nav__link :hover {
@@ -49,7 +53,7 @@
   font-size: 60px;
   line-height: 72px;
   position: relative;
-  z-index: 2;
+  
 }
 
 .header__span-accent {
@@ -71,7 +75,7 @@
   font-size: 20px;
   line-height: 30px;
   position: relative;
-  z-index: 2;
+  
 }
 
 .header__span-linebreak {
@@ -84,7 +88,7 @@
   height: 568px;
   top: 124px;
   right: 5px;
-  z-index: 1;
+  z-index: -1;
 }
 
 .header__footer {
@@ -98,7 +102,13 @@
   line-height: 20px;
   list-style-type: none;
   color: #838383;
-  padding: 100px 80px 40px 80px;
+  margin: auto;
+}
+.header__footer-list {
+padding-right: 80px;
+padding-bottom: 40px;
+padding-left: 80px;
+margin: 0;
 }
 
 .header__paragraph {
@@ -106,6 +116,5 @@
   flex-direction: column;
   list-style: none;
   list-style-type: none;
-  margin: 65px 0 0 0;
-  padding: 0;
+  margin: 0;
 }

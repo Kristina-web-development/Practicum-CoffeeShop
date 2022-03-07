@@ -9,11 +9,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Practicum Coffee Shop</title>
     <link rel="stylesheet" href="./pages/index.css" />
-    <link
-      rel="icon"
-      type="image/ico"
-      href="favicon_coffee_bean.ico"
-    />
+    <link rel="shortcut icon" href="favicon.ico" />
+      <link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif&display=swap"
       rel="stylesheet"
@@ -22,13 +20,13 @@
   <body>
     <div class="page">
       <header class="header">
-        <nav class="nav">
+        <div class="nav">
           <img
             src="./images/logo_coffee_shop.svg"
             alt="Coffee Shop Logo"
             class="logo"
           />
-          <div class="nav-links">
+          <nav class="nav__links">
             <a class="nav__link" id="Menu" href="#Menu">Menu</a>
             <a class="nav__link" id="Recipes" href="#Recipes">Recipes</a>
             <a class="nav__link" id="Booktable" href="#Booktable"
@@ -56,12 +54,12 @@
           class="header__image"
         />
         <div class="header__footer">
-          <ul class="header__paragraph">
-            <li>Hours:</li>
-            <li>
+          <ul class="header__footer-list">
+            <li class="header__paragraph">Hours:</li>
+            <li class="header__paragraph">
               Monday – Friday (10:00 – 19:00)
             </li>
-            <li>
+            <li class="header__paragraph">
               Saturday – Sunday (11:00 – 18:00)
             </li>
         </ul>
@@ -232,6 +230,7 @@
             <div class="about__circle"></div>
             <div class="about__circle about__circle_animation_blurred"></div>
         </section>
+      </main>
         <footer class="footer">
         <div class="footer__content">
             <img
@@ -264,7 +263,7 @@
                 </div>
         <p class="footer__copyrights">© 2022 Kristina Stasevich</p>
     </footer>
-      </main>
+     
     </div>
   </body>
 </html>
