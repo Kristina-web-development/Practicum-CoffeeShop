@@ -2,20 +2,18 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-  }
-  
-  
-  
-  .nav__links {
+}
+
+.nav__links {
     margin-top: 30px;
     margin-right: 80px;
     gap: 20px;
     display: flex;
     align-items: center;
     margin-bottom: 202px;
-  }
-  
-  .nav__link {
+}
+
+.nav__link {
     font-family: "Inter", "Arial", sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -23,8 +21,8 @@
     line-height: 20px;
     color: #000000;
     text-decoration: none;
-  }
-  
-  .nav__link :hover {
+}
+
+.nav__link :hover {
     color: #2f80ed;
-  }
+}
