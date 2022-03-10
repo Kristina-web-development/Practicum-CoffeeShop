@@ -21,67 +21,7 @@
   font-size: 44px;
   line-height: 52px;
   text-align: center;
+  margin-top: 0;
 }
 
-.form__fieldset {
-  gap: 32px;
-  border: none;
-  padding: 0;
-}
 
-.form__label {
-  margin: 0 auto;
-  font-family: "Inter", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-}
-
-.form__input {
-  border-radius: 4px;
-  width: 100%;
-  margin-bottom: 32px;
-  height: 55px;
-  margin-top: 8px;
-  box-sizing: border-box;
-}
-.form__input::placeholder {
-  font-family: "Inter", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 30px;
-  color: #838383;
-}
-
-.form__button {
-  border-radius: 4px;
-  opacity: 1;
-  transition: opacity 2s ease-in;
-  width: 100%;
-  font-family: "Inter", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  background-color: #2f80ed;
-  color: #fff;
-  height: 55px;
-  margin-bottom: 32px;
-  border: none;
-}
-
-.form__button:hover {
-  opacity: 0.7;
-  color: #2f80ed;
-}
-
-.form__checkbox {
-  color: #2f80ed;
-  background-image: url(../images/check.svg);
-  width: 18px;
-  height: 18px;
-  margin-right: 12px;
-  margin-left: 45px;
-}
